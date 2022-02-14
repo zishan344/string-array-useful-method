@@ -34,7 +34,6 @@ for (const product of products) {
 
 //start with
 
-// problem 3 ta kore asar karon ki?
 for (const product of products) {
   if (product.toLocaleLowerCase().startsWith(searching.toLocaleLowerCase())) {
     output.push(product);

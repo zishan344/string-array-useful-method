@@ -1,6 +1,6 @@
 const anthem = "Amar Sonar Bangla Ami Tomai Valobasi";
 const word = anthem.split(" ");
-// console.log(word);
+console.log(word);
 
 //slice
 const smallslicing = anthem.slice(0, 4);
