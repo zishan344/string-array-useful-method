@@ -9,8 +9,8 @@ const smallslicing = anthem.slice(0, 4);
 // sub str
 
 //proble index number dea astesena kn
-const anotherPart = anthem.substr(0, 3);
-// console.log(anotherPart);
+const anotherPart = anthem.substr(1, 3);
+console.log(anotherPart);
 
 // sub String
 const anotherPartParts = anthem.substring(0, 3);
@@ -22,4 +22,4 @@ const fullString = first.concat(second);
 
 const words = ["a", "b", "c", "d", "e"];
 const allJoined = words.join("");
-console.log(allJoined);
+// console.log(allJoined);

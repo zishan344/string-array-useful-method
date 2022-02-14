@@ -13,11 +13,11 @@ const searching = "Dell";
 const output = [];
 for (const product of products) {
   //   console.log(product);
-  if (
-    product.toLocaleLowerCase().indexOf(searching.toLocaleLowerCase()) != -1
-  ) {
-    output.push(product);
-  }
+  // if (
+  //   product.toLocaleLowerCase().indexOf(searching.toLocaleLowerCase()) != -1
+  // ) {
+  //   output.push(product);
+  // }
 }
 //console.log(output);
 
@@ -25,11 +25,11 @@ for (const product of products) {
 
 // product.toLocaleLowerCase().includes(searching.toLocaleLowerCase()) != -1
 // // problem != not equal dile kaj korena kn
-for (const product of products) {
-  if (product.toLocaleLowerCase().includes(searching.toLocaleLowerCase())) {
-    output.push(product);
-  }
-}
+// for (const product of products) {
+//   if (product.toLocaleLowerCase().includes(searching.toLocaleLowerCase())) {
+//     output.push(product);
+//   }
+// }
 // console.log(output);
 
 //start with
@@ -46,4 +46,4 @@ for (const product of products) {
     output.push(product);
   }
 }
-// console.log(output);
+console.log(output);
